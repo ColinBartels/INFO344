@@ -1,0 +1,9 @@
+I started out by setting up my ec2 server. I then used Putty to run the commands to set up the server. After finding where I had to put my files and confirming that I could see them, I turned to the RDS. After setting it up, I configured PHPMyAdmin to connect to it and upload the data file. The code that takes this data and displays it properly consists of 4 different files:
+
+The first one is index.php. This file first uses HTML to create the title, searchbox, and the table headers. Then it uses PHP to send a MYSQL query to the RDS using a PDO. All of the queries that are sent use prepared statements. When the results are returnted, he displayResults function is called. This takes the results, processes it as a json object and echoes the proper html elements. It also provides a link to the players' wikipedia page in their name.
+
+Main.js is a javascript/JQuery file that handles the AJAX searching. It adds an onkeyup event to the searchbox. This means that everytime a key is pressed and a character is added to the searchbox, a new search is processed. This event handler sends a post request to search.php with the current contents of the searchbox. Upon receiving the results. It clears the table and puts the results in the table.
+
+Search.php takes the POST request and creates a query using wildcard operators so that and name that contains those concurrent letters will be returned. Because the query I set up before wouldn't accept any wildcard characters I had to set up a new PDO. To get the % signs in the query, I had to use the bindValue function. Once the results are returned, they are converted into a JSON object and echoed back to Main.js.
+
+Main.css handles the styles for the page. It just arranges some of the elements on the page. I also used the Bootstrap css classes to style both the searchbox and the table.

@@ -1,0 +1,4 @@
+AJAX search
+
+You can see that this works by typing anything into the search box and seeing that the table is recreated with the results immediately.
+As I explained in the writeup, I used a javascript onkeyup event handler on the searchbox that sends an ajax call to search.php every time a character is added to the search box. Search.php creates a new query from the current contents of the search box and returns the results. main.js then uses that data to re-populate the table.
