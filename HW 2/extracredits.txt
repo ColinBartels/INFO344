@@ -1,0 +1,1 @@
+I completed the hybrid list and trie data structure. When adding titles to the trie, the children to each node are first added into a list. Upon reaching 15 children, the convert method is called and the list is deleted and the children are moved into new nodes in a dictionary. You can tell that this works because I am able to fit the whole list of titles into my trie.

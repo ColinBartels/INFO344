@@ -1,0 +1,15 @@
+DiagnosticsPluginLauncher.exe Information: 0 : [4/27/2016 10:05:01 PM] Emulator config file set to C:\Users\colin\Dropbox\INFO344\Classwork\AzureTable\AzureTable\csx\Debug\roles\WebRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [4/27/2016 10:05:01 PM] DiagnosticsStoreRootPath set to: C:\Users\colin\AppData\Local\dftmp\Resources\205c8c13-e158-4c27-a508-122b596983ce
+DiagnosticsPluginLauncher.exe Information: 0 : [4/27/2016 10:05:01 PM] Loading config file: C:\Users\colin\Dropbox\INFO344\Classwork\AzureTable\AzureTable\csx\Debug\roles\WebRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [4/27/2016 10:05:01 PM] Config file to read: C:\Users\colin\Dropbox\INFO344\Classwork\AzureTable\AzureTable\csx\Debug\roles\WebRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [4/27/2016 10:05:01 PM] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [4/27/2016 10:05:01 PM] Emulator config file set to C:\Users\colin\Dropbox\INFO344\Classwork\AzureTable\AzureTable\csx\Debug\roles\WebRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [4/27/2016 10:05:01 PM] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [4/27/2016 10:05:01 PM] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [4/27/2016 10:05:01 PM] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [4/27/2016 10:05:01 PM] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [4/27/2016 10:05:01 PM] No DiagnosticsPlugin is running.
+DiagnosticsPluginLauncher.exe Information: 0 : [4/27/2016 10:05:01 PM] Killing any DiagnosticsPlugin that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [4/27/2016 10:05:01 PM] Killing any MonAgentHost that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [4/27/2016 10:05:01 PM] Diagnostics plugin stopped successfully
+DiagnosticsPluginLauncher.exe Information: 0 : [4/27/2016 10:05:01 PM] Resetting DiagnosticPlugin
