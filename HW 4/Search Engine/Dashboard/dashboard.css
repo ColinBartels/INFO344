@@ -1,0 +1,64 @@
+﻿body {
+    text-align: center;
+}
+
+#controls {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+}
+
+#controls div {
+    margin-top: 30px;
+}
+
+#controls .btn {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#last {
+    width:30%;
+    float:left;
+    text-align:left;
+    margin-left:40px;
+    clear: left;
+    overflow-x: scroll;
+}
+
+#info {
+    width: 30%;
+    float:left;
+    text-align: left;
+}
+
+#errors {
+    width: 30%;
+    height: 500px;
+    float: left;
+    text-align: left;
+    overflow-x: scroll;
+}
+
+#chart_div {
+    float: left;
+    margin:50px;
+    width: 400px; 
+    height: 120px;
+    margin-bottom: 100px;
+}
+
+span {
+    font-size: 12pt;
+}
+
+#bottom {
+    position: absolute;
+    width: 100%;
+    top: 220px;
+}
+
+#info {
+    padding-left: 50px;
+}
