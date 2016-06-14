@@ -75,7 +75,7 @@ require_once('search.php');
 
 function dbQuery($query) {
    try {
-       $conn = new PDO('mysql:host=nba.cdxfydz9vy1z.us-west-2.rds.amazonaws.com;port:3306;dbname=NBA', 'colin', 'feather!');
+       $conn = new PDO('mysql:host=nba.cdxfydz9vy1z.us-west-2.rds.amazonaws.com;port:3306;dbname=NBA', 'colin', ******);
        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
        $stmt = $conn->prepare($query);
        $stmt->execute();
