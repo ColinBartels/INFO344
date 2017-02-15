@@ -1,3 +1,0 @@
-I did part of the graphical dashboard. I used some gauges that show the current memory and cpu percentage.
-To do this I used Google's visualization found here: https://developers.google.com/chart/interactive/docs/gallery/gauge
-I make a request every 3 seconds to the getSystemStats webmethod and update the values that the gauge pulls from.
